@@ -77,6 +77,7 @@ function goCode(data,callback){
             if( script ){
                 exec(script, (error, stdout, stderr) => {
                     if (error) {
+                        console.log("失败了", error)
                         return;
                     }
                 });

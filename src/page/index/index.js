@@ -46,7 +46,7 @@ function SeedHook() {
 			<>
 				<div>加法：{count}</div>
 				<div>乘法：{number}</div>
-				<Button onClick={()=> add()}>点击3</Button>
+				<Button onClick={()=> add()}>点击6</Button>
 			</>
 		)
 	}
